@@ -5,7 +5,7 @@ import backupRoutes from "./routes/backup.js";
 import kugouRoutes from "./routes/kugou.js";
 
 const app = express();
-const PORT = process.env.PORT || 6522; // 后端使用 6522（避免与父级 API 6521 冲突）
+const PORT = process.env.PORT || 16522; // 后端使用 6522（避免与父级 API 6521 冲突）
 
 // CORS 配置 - 允许前端域名访问
 const allowedOrigins = [
